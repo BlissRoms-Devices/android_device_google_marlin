@@ -21,9 +21,9 @@
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := du_marlin
+PRODUCT_NAME := bliss_marlin
 PRODUCT_DEVICE := marlin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel XL

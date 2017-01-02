@@ -1,0 +1,5 @@
+[gerrit]
+host=review.blissroms.com
+port=29418
+project=pjgraber03/android_device_google_marlin.git
+defaultbranch=n7x

@@ -45,6 +45,9 @@ SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 
 DEFAULT_LOW_PERSISTENCE_MODE_BRIGHTNESS := 0x00000058
 
+# Audio
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+
 BOARD_USES_GENERIC_AUDIO := true
 
 BOARD_USES_ALSA_AUDIO := true
@@ -170,7 +173,7 @@ CAMERA_DAEMON_NOT_PRESENT := true
 
 #TARGET_LDPRELOAD := libNimsWrap.so
 
-# TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 TARGET_KERNEL_APPEND_DTB := true
 # Added to indicate that protobuf-c is supported in this build
@@ -191,8 +194,7 @@ TARGET_USE_MDTP := true
 # Use prebuilt APN lib from Verizon Wireless
 TARGET_USE_VERIZON_APN_LIB_PREBUILT := true
 
-TARGET_BOARD_KERNEL_HEADERS := device/google/marlin/kernel-headers \
-			       hardware/qcom/msm8996/kernel-headers
+TARGET_BOARD_KERNEL_HEADERS := device/google/marlin/kernel-headers
 
 # Install odex files into the other system image
 BOARD_USES_SYSTEM_OTHER_ODEX := true

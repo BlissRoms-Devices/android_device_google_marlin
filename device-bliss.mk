@@ -24,8 +24,9 @@ PRODUCT_PACKAGES += \
     PresencePolling
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-lineage
-
+DEVICE_PACKAGE_OVERLAYS += \
+   device/google/marlin/overlay-lineage \
+   device/google/marlin/overlay-bliss
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge
@@ -37,3 +38,7 @@ PRODUCT_PACKAGES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
+
+# Doze
+PRODUCT_PACKAGES += \
+   CustomDoze

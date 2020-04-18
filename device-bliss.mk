@@ -1,5 +1,5 @@
 # Build vendor img
-AB_OTA_PARTITIONS += vendor
+#AB_OTA_PARTITIONS += vendor
 
 # Camera
 PRODUCT_PACKAGES += \

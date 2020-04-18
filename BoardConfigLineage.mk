@@ -1,5 +1,5 @@
 # Common board config for marlin, sailfish
-
+TARGET_USES_LAWNCHAIR := false
 TARGET_USE_AOSP_SURFACEFLINGER := true
 # Build vendor image
 BOARD_VENDORIMAGE_PARTITION_SIZE := 314572800

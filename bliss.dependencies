@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_kernel_google_marlin",
-    "target_path": "kernel/google/marlin"
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_google_marlin",
+    "target_path": "kernel/google/marlin",
+    "revision": "lineage-17.1"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google",
+    "revision": "lineage-17.1"
   }
 ]

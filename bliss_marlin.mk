@@ -28,6 +28,6 @@ $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 
 # Device Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.bliss.maintainer=Waseem Alkurdi
+	ro.bliss.maintainer=WaseemAlkurdi
 
 BLISS_BUILDTYPE=OFFICIAL

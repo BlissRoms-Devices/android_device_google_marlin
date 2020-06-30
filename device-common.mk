@@ -43,14 +43,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.radio.data_con_rprt=1 \
     persist.radio.calls.on.ims=1
 
-# Permission HACKERY
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.control_privapp_permissions=log \
-    ro.adb.secure=0 \
-    persist.sys.usb.config=mtp,adb \
-    persist.service.debuggable=1 \
-    persist.service.adb.enable=1
-
 # Include Google apps by default
 ifneq ($(TARGET_BUILD_GAPPS),false)
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)

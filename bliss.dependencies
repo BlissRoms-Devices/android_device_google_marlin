@@ -1,6 +1,12 @@
 [
   {
     "remote": "github",
+    "repository": "BlissRoms/platform_external_google",
+    "target_path": "external/google",
+    "revision": "q"
+  },
+  {
+    "remote": "github",
     "repository": "LineageOS/android_kernel_google_marlin",
     "target_path": "kernel/google/marlin",
     "revision": "lineage-17.1"

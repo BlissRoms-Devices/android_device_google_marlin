@@ -31,3 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.bliss.maintainer=WaseemAlkurdi
 
 BLISS_BUILDTYPE=OFFICIAL
+
+# Gapps
+TARGET_GAPPS_ARCH := arm64

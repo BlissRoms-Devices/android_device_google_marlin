@@ -2,22 +2,22 @@
 TARGET_USES_LAWNCHAIR := false
 TARGET_USE_AOSP_SURFACEFLINGER := true
 TARGET_GAPPS_OVERRIDE := \
-CarrierServices \
-Velvet \
-Chrome \
-LatinIMEGooglePrebuilt \
-PrebuiltBugle \
-MarkupGoogle \
-CalendarGooglePrebuilt \
-WellbeingPrebuilt \
-GoogleFeedback \
-RecorderPrebuilt \
-TipsPrebuilt \
-WallpapersBReel2019 \
-Photos \
-PixelLiveWallpaperPrebuilt \
-GoogleTTS \
-GoogleCamera
+    GooglePrintRecommendationService \
+    GoogleExtServicesPrebuilt \
+    CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt \
+    Chrome \
+    GoogleTTS \
+    LatinIMEGooglePrebuilt \
+    MarkupGoogle \
+    talkback \
+    WebViewGoogle \
+    PrebuiltGmail \
+    CarrierServices \
+    ConnMetrics \
+    PixelSetupWizard \
+    TipsPrebuilt \
+    WallpaperPickerGoogleRelease
 
 # Build vendor image
 BOARD_VENDORIMAGE_PARTITION_SIZE := 314572800

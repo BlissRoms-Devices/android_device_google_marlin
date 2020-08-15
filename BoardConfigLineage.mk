@@ -17,7 +17,12 @@ TARGET_GAPPS_OVERRIDE := \
     ConnMetrics \
     PixelSetupWizard \
     TipsPrebuilt \
-    WallpaperPickerGoogleRelease
+    WallpaperPickerGoogleRelease \
+    Photos \
+    GoogleCamera \
+    MarkupPrebuilt \
+    PrebuiltBugle \
+    Velvet
 
 # Build vendor image
 BOARD_VENDORIMAGE_PARTITION_SIZE := 314572800
